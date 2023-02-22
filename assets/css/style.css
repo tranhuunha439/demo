@@ -106,7 +106,7 @@ html {
 #slider{
     margin-top: 59px;
     padding-top: 50%;
-    background: url(/assets/img/slider/mac.jpg) top center / cover no-repeat;
+    background: url(../img/slider/mac.jpg) top center / cover no-repeat;
     
 }
 
