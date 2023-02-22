@@ -1,0 +1,610 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-while{
+    color: #fff;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.mt-64{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#main {
+
+}
+
+#header {
+    
+    height: 59px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    z-index: 999;
+    
+    
+}
+
+#logo{
+    display: inline-block;
+}
+#menu li,
+#logo li {
+    display: inline-block;
+}
+#menu li a,
+#logo li a {
+    color: #000;
+    text-decoration: none;
+    line-height: 59px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    
+}
+#menu li:hover,
+#logo li:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+#menu{
+    float: right;
+}
+
+
+.icon{
+    font-size: 14px;
+}
+.menu-bar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 21px 16px;
+    display: none;
+}
+
+
+
+
+
+/* Slider */
+
+#slider{
+    margin-top: 59px;
+    padding-top: 50%;
+    background: url(/assets/img/slider/mac.jpg) top center / cover no-repeat;
+    
+}
+
+
+
+#slider .text-slider{
+   
+    padding: 48px;
+   
+    transform: translate(0%,-50%);
+}
+
+#slider .text1{
+    font-size: 64px;
+    line-height: 115px;
+    text-size-adjust: 100%;
+
+}
+
+#slider .text2{
+    font-size: 18px;
+    line-height: 32px;
+    text-size-adjust: 100%;
+
+}
+
+#slider .btn-slider{
+    position: absolute;
+    padding: 12px 24px;
+    margin-top: 16px ;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background-color: #9E9E9E;
+
+}
+
+#slider .btn-slider:hover{
+    background-color: #ccc ;
+}
+
+#slider .socials-list-one{
+    display: inline-block;
+    padding: 24px 48px;
+}
+
+#slider .socials-list-one a{
+    color: #616161;
+    text-decoration: none;
+}
+
+#slider .socials-list-one a:hover{
+    color: #ccc;
+}
+
+
+    
+
+
+/* ABOUT THE COMPANY */
+#content{
+
+  
+
+}
+
+#content .content-one{
+    
+    padding: 128px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    
+    
+
+}
+#content .content-sec{
+    text-align: center;
+    display: flex;
+    
+    
+}
+
+#content .sec-heading{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 10px 0;
+
+}
+
+#content .sec-sub{
+    text-align: center;
+    font-size: 18px;
+    margin: 18px 0;
+
+}
+.content-sec{
+    margin-top: 64px;
+}
+
+.icon-about{
+    font-size: 64px;
+}
+
+
+
+.ti-desktop {
+
+}
+
+.title {
+    margin: 18px 0;
+
+}
+
+.title-text {
+    margin: 15px 0;
+
+}
+
+.company{
+    padding: 0 8px;
+}
+/*We know design  */
+.design-color{
+    background-color: #f1f1f1;
+}
+
+.design{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.design-text{
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.design-img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.design-text-one{
+    margin: 10px 0;
+    display: block;
+
+}
+
+.design-text-two{
+    margin: 15px 0;
+
+}
+
+.design-text-three{
+    display: block;
+    margin: 15px 0;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    overflow: hidden;
+
+    
+}
+
+
+
+/* THE TEAM */
+.team {
+    margin-top: 64px;
+    display: flex;
+}
+
+.member {
+    padding: 0 8px;
+    margin-bottom: 16px;
+    
+   
+   
+  
+
+}
+.member-one{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+
+}
+
+.member-text{
+    padding: 0.15px 16px;
+
+}
+
+.member-name {
+    margin: 10px 0 ;
+
+}
+
+.member-job {
+    margin: 15px 0;
+
+}
+
+.member-info {
+    margin: 15px 0;
+
+}
+
+.btn {
+    width: 100%;
+    padding: 8px 16px ;
+    border: none;
+    margin: 15px 0;
+
+}
+
+.img {
+    width: 100%;
+    
+}
+
+/* number */
+.number{
+    
+    background-color: #616161;
+    padding: 64px 16px;
+}
+
+.mumber-big{
+    display: flex;
+    justify-content: space-around;
+}
+
+.number-one{
+    text-align: center;
+    color: #fff;
+}
+
+.number-one-first{
+   
+    font-size: 36px;
+    line-height: 64px;
+    text-size-adjust:100% ;
+
+}
+
+
+/* OUR WORK */
+
+.picture{
+    width: 100%;
+
+}
+
+.image{
+    display: flex;
+   justify-content: space-between;
+    margin-top: 64px;
+    padding: 0 8px;
+    
+}
+
+.image-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    margin: 16px 0px;
+   
+
+}
+
+/* our skills */
+
+.our-skills{
+    padding: 64px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skiils-one{
+    padding: 0 8px;
+}
+
+
+    
+
+
+.skills-title{
+    margin: 10px 0;
+    font-size: 24px;
+
+}
+
+.skills-text{
+    font-size: 15px;
+
+}
+
+.width-one{
+    width: 90%;
+}
+
+.width-two{
+    width: 85%;
+}
+
+.width-three{
+    width: 75%;
+}
+
+.chart{
+    width: 50%;
+    padding: 0 8px;
+}
+
+
+.chart-big{
+    background-color: #9E9E9E;
+}
+
+
+
+.chart-horizon{
+    background-color: #616161 ;
+    text-align: center;
+    color: #fff;
+    padding: 0.150px 16px;
+
+}
+
+.chart-name{
+    margin: 15px 0;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+/* pricing */
+
+.pricing{
+    background-color: #616161;
+   
+}
+
+
+
+
+
+
+.basic-text-title{
+    padding: 32px 16px;
+    list-style-type: none;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+}
+
+.pricing .pricing-basic,
+.pricing .pricing-premium{
+    margin: 16px 0;
+    
+}
+
+.pricing .pricing-basic,
+.pricing .pricing-pro,
+.pricing .pricing-premium{
+    width: 33.33333%;
+    padding: 0 8px;
+  
+
+}
+
+
+.basic-text-title-red{
+    padding: 48px 16px;
+    list-style-type: none;
+    text-align: center;
+    color: #fff;
+    background-color: #f44336;
+    font-size: 24px;
+}
+
+.pricing .basic-text{
+    list-style-type: none;
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 15px;
+}
+.pricing .pricing-premium li,
+.pricing .pricing-pro li,
+.pricing .pricing-basic li{
+    border-bottom: 1px solid #ccc ;
+}
+
+.basic-text-btn{
+    list-style-type: none;
+    padding: 24px 16px;
+    text-align: center;
+    background-color: rgb(241, 241, 241) ;
+    font-size: 15px;
+}
+
+.btn-sign-up{
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+
+}
+
+b{
+    font-weight: bolder;
+}
+h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+/* contact */
+
+.backgroud-contact{
+    background-color: rgb(241, 241, 241) ;
+}
+
+.contact{
+    margin-top: 48px;
+}
+
+.contact-form{
+    padding-top: 20px ;
+}
+
+.contact-info i[class*="ti-"]{
+    width: 30px; 
+    display: inline-block; 
+}
+.contact .contact-info i{
+    font-size: 36px ;
+    margin: 0 16px;
+  
+}
+
+
+p{
+    margin: 15px 0 ;
+    font-size: 15px;
+}
+
+.form-send{
+    margin: 15px 0;
+    opacity: 0.4;
+    
+}
+
+.form-control{
+    width: 100%;
+    padding: 8px;
+}
+
+.form-submit-btn{
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}
+.map-section img{
+    margin-top: 48px;
+    width: 100%;
+    padding: 128px 16px;
+    
+}
+
+/* footer */
+#footer{
+    background-color: #000;
+    padding: 64px 16px;
+    text-align: center;
+}
+#footer .socials-list{
+    font-size: 24px;
+    
+}
+#footer .socials-list a{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+#footer .copyright a:hover,
+#footer .socials-list a:hover{
+    color: rgba(100, 97, 97, 0.4);
+}
+#footer .copyright{
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.6);
+}
+#footer .copyright a{
+    color: rgba(255, 255, 255, 0.6);
+}
